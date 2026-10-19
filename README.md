@@ -1,41 +1,33 @@
-# 💫 Hi 👋, I'm Vikas Daddi
+# Hi, I'm Vikas Daddi
 
-**Final Year Computer Science (Data Science) Student || Software Developer || Full Stack Developer from India**
+**AI & Full-Stack Developer · Computer Science (Data Science) student**
 
-Email Me 👉 ✉️ **[vikki74111@gmail.com](mailto:vikki74111@gmail.com)** For Collaboration, Projects, or Opportunities 😊
+## [View my live portfolio ↗](https://vikas-daddi-portfolio.plumbear64.chatgpt.site)
 
-* 🔭 **I’m currently working on:** Full-Stack Web Development and AI-enabled software projects
-* 🌱 **I’m currently learning:** Advanced MERN Stack, Machine Learning, Data Analytics, and Modern Development Workflows
-* 👯 **I’m looking to collaborate on:** Web Development, Full Stack Applications, and AI/Data Science Projects
-* 🤔 **I’m looking for help with:** Industry-level software development practices and building scalable applications
-* 💬 **Ask me about:** MERN Stack, Python, Full Stack Development, AI, and Data Science
-* 📫 **How to reach me:** **[vikki74111@gmail.com](mailto:vikki74111@gmail.com)**
-* 🎓 **Currently:** Final Year B.Tech Student in Computer Science (Data Science) (2023–2027)
-* ⚡ **Fun fact:** I enjoy building practical software solutions and exploring emerging technologies
+Explore my projects, case studies, certificates, and a short portfolio film in light or dark mode.
 
-## 🚀 Skills & Technologies
+### About me
 
-* 💻 Languages: C • C++ • Java • Python • HTML
-* 🌐 Full Stack: MongoDB • Express.js • React.js • Node.js
-* 🤖 Domains: Artificial Intelligence • Machine Learning • Data Science
-* 🛠 Tools: Git • GitHub • VS Code
-* 📊 Additional: Data Analytics • Data Visualization • AI Workflow Integration
+- Final-year **B.E. Computer Science & Engineering (Data Science)** student, Karavali Institute of Technology · VTU, 2023–2027.
+- I build AI applications, MERN platforms, and systems that connect software with hardware.
+- Open to **internships and full-time roles** in AI development, AI full-stack development, and data analysis.
+- Contact: [vikki74111@gmail.com](mailto:vikki74111@gmail.com) · [LinkedIn](https://www.linkedin.com/in/vikas-daddi-b99aa938a/)
 
-## 📌 Featured Projects
+### Selected work
 
-* 🎯 **Event Management System** — Full-stack MERN application with authentication and admin dashboard
-* ♻️ **E-Waste Collection & Navigation System** — Smart waste platform with routing and detection features
+- **RescueMesh** — completed final-year offline disaster communication system, built end to end as the sole developer. Tested two ESP32/LoRa nodes over **1 km**, with successful SOS delivery and return dispatch updates.
+- **VD-MockBot** — AI mock interviews with voice input, feedback, and session tracking.
+- **VD-EventHub** — MERN event management and QR ticketing, built during my CodeLab Systems internship alongside MERN coursework.
+- **VD-Trio & VD-Collect** — multilingual translation and an e-waste recycling locator.
 
-## 🎯 Open To
+Visit the [live portfolio](https://vikas-daddi-portfolio.plumbear64.chatgpt.site/#work) for project previews and case studies.
 
-* Software Development Roles
-* Full Stack Development Opportunities
-* Data Science Internships & Graduate Roles
+### Technologies
 
-
+React · Node.js · Express · Flask · Python · JavaScript · SQL · MongoDB · Ollama · Whisper · ESP32 · LoRa · Git
 
 ## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/vikasm623) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)]([https://linkedin.com/in/VIKAS DADDI](https://www.linkedin.com/in/vikas-daddi-b99aa938a)) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:vikki74111@gmail.com) 
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/vikasm623) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vikas-daddi-b99aa938a/) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:vikki74111@gmail.com) 
 
 <!-- Snake Game Repo View -->
 
