@@ -4,7 +4,7 @@
 
 I build practical AI applications, full-stack products, and systems that connect software with the real world.
 
-🌐 **Explore my portfolio:** [vikas-daddi-portfolio.plumbear64.chatgpt.site](https://vikas-daddi-portfolio.plumbear64.chatgpt.site)  
+🌐 **Explore my portfolio:** [Vikas Daddi Portfolio](https://portfolio-two-rho-ay000oc54o.vercel.app/)  
 📫 **Email:** [vikki74111@gmail.com](mailto:vikki74111@gmail.com) · **LinkedIn:** [Vikas Daddi](https://www.linkedin.com/in/vikas-daddi-b99aa938a/)
 
 ## 👨‍💻 About Me
@@ -50,7 +50,7 @@ I build practical AI applications, full-stack products, and systems that connect
 
 ## 🌐 Connect with Me
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-7C3AED?style=for-the-badge&logo=googlechrome&logoColor=white)](https://vikas-daddi-portfolio.plumbear64.chatgpt.site) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vikas-daddi-b99aa938a/) [![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vikki74111@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-7C3AED?style=for-the-badge&logo=googlechrome&logoColor=white)](https://portfolio-two-rho-ay000oc54o.vercel.app/) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vikas-daddi-b99aa938a/) [![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vikki74111@gmail.com)
 
 ## 💻 Tech Stack
 
