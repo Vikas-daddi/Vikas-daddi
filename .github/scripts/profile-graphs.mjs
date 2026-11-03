@@ -92,35 +92,54 @@ ${yGrid}<path d="${areaPath}" fill="url(#area)"/><path d="${linePath}" fill="non
 ${points.filter((_, index) => index % 4 === 0).map((point) => `<circle cx="${point.x.toFixed(1)}" cy="${point.y.toFixed(1)}" r="3" fill="${colors.pale}"/>`).join("")}${xLabels}
 </svg>`;
 
-const repos = await githubJson(`https://api.github.com/users/${username}/repos?per_page=100&type=owner&sort=updated`);
-const languageCounts = new Map();
-for (const repo of repos.filter((item) => !item.private && !item.fork && !item.archived && item.language)) {
-  languageCounts.set(repo.language, (languageCounts.get(repo.language) ?? 0) + 1);
+const dailyCounts = new Map();
+for (const week of calendar.weeks) {
+  for (const day of week.contributionDays) {
+    const month = day.date.slice(0, 7);
+    dailyCounts.set(month, (dailyCounts.get(month) ?? 0) + day.contributionCount);
+  }
 }
-const languages = [...languageCounts.entries()].sort((a, b) => b[1] - a[1]).slice(0, 6);
-const langW = 960;
-const langH = 300;
-const barX = 240;
-const barW = 560;
-const rowY = 82;
-const rowGap = 32;
-const langMax = Math.max(1, ...languages.map(([, count]) => count));
-const rows = languages.length
-  ? languages.map(([name, count], index) => {
-      const y = rowY + index * rowGap;
-      const width = Math.max(8, (count / langMax) * barW);
-      const opacity = 1 - index * 0.09;
-      return `<text x="38" y="${y + 15}" fill="${colors.text}" font-family="Segoe UI,Arial,sans-serif" font-size="15">${name}</text><rect x="${barX}" y="${y}" width="${barW}" height="18" rx="9" fill="${colors.panel}"/><rect x="${barX}" y="${y}" width="${width.toFixed(1)}" height="18" rx="9" fill="${colors.blue}" opacity="${opacity}"/><text x="${barX + barW + 24}" y="${y + 15}" fill="${colors.pale}" font-family="Segoe UI,Arial,sans-serif" font-size="14">${count} repos</text>`;
-    }).join("")
-  : `<text x="38" y="112" fill="${colors.muted}" font-family="Segoe UI,Arial,sans-serif" font-size="15">No public repositories with a detected primary language yet.</text>`;
-const langSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="${langW}" height="${langH}" viewBox="0 0 ${langW} ${langH}" role="img" aria-labelledby="title desc">
-<title id="title">Public repository languages</title><desc id="desc">Repository counts by primary language across public, non-fork repositories.</desc>
-<rect width="${langW}" height="${langH}" rx="18" fill="${colors.bg}"/><rect x="1" y="1" width="${langW - 2}" height="${langH - 2}" rx="17" fill="none" stroke="${colors.grid}"/>
-<text x="28" y="34" fill="${colors.text}" font-family="Segoe UI,Arial,sans-serif" font-size="19" font-weight="700">Public repository languages</text>
-<text x="${langW - 28}" y="34" text-anchor="end" fill="${colors.muted}" font-family="Segoe UI,Arial,sans-serif" font-size="13">Primary language · repo counts</text>
-${rows}</svg>`;
+const lastDay = calendar.weeks.at(-1)?.contributionDays.at(-1)?.date;
+const anchor = lastDay ? new Date(`${lastDay}T00:00:00Z`) : new Date();
+const latestMonth = Date.UTC(anchor.getUTCFullYear(), anchor.getUTCMonth(), 1);
+const monthly = Array.from({ length: 12 }, (_, index) => {
+  const date = new Date(latestMonth);
+  date.setUTCMonth(date.getUTCMonth() - (11 - index));
+  const key = date.toISOString().slice(0, 7);
+  return {
+    label: date.toLocaleString("en", { month: "short", timeZone: "UTC" }),
+    count: dailyCounts.get(key) ?? 0,
+  };
+});
+const monthW = 960;
+const monthH = 300;
+const chartLeft = 50;
+const chartTop = 76;
+const chartBottom = 50;
+const chartRight = 26;
+const monthChartH = monthH - chartTop - chartBottom;
+const monthChartW = monthW - chartLeft - chartRight;
+const monthMax = Math.max(1, ...monthly.map((item) => item.count));
+const slot = monthChartW / monthly.length;
+const monthBars = monthly.map((item, index) => {
+  const barWidth = Math.min(40, slot * 0.58);
+  const barHeight = (item.count / monthMax) * monthChartH;
+  const x = chartLeft + index * slot + (slot - barWidth) / 2;
+  const y = chartTop + monthChartH - barHeight;
+  return `<rect x="${x.toFixed(1)}" y="${y.toFixed(1)}" width="${barWidth.toFixed(1)}" height="${Math.max(2, barHeight).toFixed(1)}" rx="6" fill="${index % 2 ? colors.blue : colors.cyan}"/><text x="${(x + barWidth / 2).toFixed(1)}" y="${monthH - 18}" text-anchor="middle" fill="${colors.muted}" font-family="Segoe UI,Arial,sans-serif" font-size="12">${item.label}</text>${item.count ? `<text x="${(x + barWidth / 2).toFixed(1)}" y="${(y - 8).toFixed(1)}" text-anchor="middle" fill="${colors.pale}" font-family="Segoe UI,Arial,sans-serif" font-size="11">${item.count}</text>` : ""}`;
+}).join("");
+const monthGrid = [0, 0.5, 1].map((ratio) => {
+  const y = chartTop + monthChartH - ratio * monthChartH;
+  return `<line x1="${chartLeft}" y1="${y.toFixed(1)}" x2="${monthW - chartRight}" y2="${y.toFixed(1)}" stroke="${colors.grid}"/>`;
+}).join("");
+const monthSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="${monthW}" height="${monthH}" viewBox="0 0 ${monthW} ${monthH}" role="img" aria-labelledby="title desc">
+<title id="title">Monthly contributions</title><desc id="desc">GitHub contributions by month over the last year.</desc>
+<rect width="${monthW}" height="${monthH}" rx="18" fill="${colors.bg}"/><rect x="1" y="1" width="${monthW - 2}" height="${monthH - 2}" rx="17" fill="none" stroke="${colors.grid}"/>
+<text x="28" y="34" fill="${colors.text}" font-family="Segoe UI,Arial,sans-serif" font-size="19" font-weight="700">Monthly contributions</text>
+<text x="${monthW - 28}" y="34" text-anchor="end" fill="${colors.muted}" font-family="Segoe UI,Arial,sans-serif" font-size="13">Last 12 months · GitHub activity</text>
+${monthGrid}${monthBars}</svg>`;
 
 mkdirSync("dist", { recursive: true });
 writeFileSync("dist/profile-activity.svg", activitySvg);
-writeFileSync("dist/profile-languages.svg", langSvg);
-console.log(`Generated activity chart (${calendar.totalContributions} yearly contributions) and language chart (${languages.length} public languages).`);
+writeFileSync("dist/profile-monthly.svg", monthSvg);
+console.log(`Generated weekly and monthly contribution charts from ${calendar.totalContributions} contributions over the past year.`);

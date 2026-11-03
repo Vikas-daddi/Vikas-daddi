@@ -117,7 +117,7 @@ Solo participant in the Geek Room hackathon; the final round was held at Paytm, 
 
 <div align="center">
   <img width="49%" src="https://raw.githubusercontent.com/Vikas-daddi/Vikas-daddi/output/profile-activity.svg" alt="Weekly GitHub contributions over the past year" />
-  <img width="49%" src="https://raw.githubusercontent.com/Vikas-daddi/Vikas-daddi/output/profile-languages.svg" alt="Primary languages across public repositories" />
+  <img width="49%" src="https://raw.githubusercontent.com/Vikas-daddi/Vikas-daddi/output/profile-monthly.svg" alt="GitHub contributions by month" />
 </div>
 
 ## 🐍 Contribution Animation
