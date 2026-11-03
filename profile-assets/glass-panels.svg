@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1240" viewBox="0 0 1200 1240" role="img" aria-labelledby="title desc">
+  <title id="title">Vikas Daddi — profile and project panels</title>
+  <desc id="desc">Glossy blue, three-dimensional glass panels for Vikas Daddi’s profile, education, experience, career focus, and eight selected projects.</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2=".95" y2="1">
+      <stop offset="0" stop-color="#16355E" stop-opacity=".98"/>
+      <stop offset=".48" stop-color="#0B1D38" stop-opacity=".98"/>
+      <stop offset="1" stop-color="#101A32" stop-opacity=".98"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#E0F2FE" stop-opacity=".06"/>
+      <stop offset=".5" stop-color="#BAE6FD" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#60A5FA" stop-opacity=".08"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E0F2FE" stop-opacity=".7"/>
+      <stop offset=".42" stop-color="#60A5FA" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity=".55"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#60A5FA"/>
+    </linearGradient>
+    <radialGradient id="ambient">
+      <stop offset="0" stop-color="#38BDF8" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#1D4ED8" stop-opacity="0"/>
+    </radialGradient>
+    <g id="card">
+      <rect x="7" y="10" width="100%" height="100%" rx="22" fill="#020817" fill-opacity=".62"/>
+    </g>
+  </defs>
+  <circle cx="1120" cy="90" r="250" fill="url(#ambient)"/>
+  <circle cx="80" cy="1000" r="250" fill="url(#ambient)"/>
+  <text x="42" y="48" fill="#7DD3FC" font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="3">PROFILE / SNAPSHOT</text>
+  <text x="1158" y="48" text-anchor="end" fill="#64748B" font-family="Segoe UI,Arial,sans-serif" font-size="14" letter-spacing="2">AI · FULL-STACK · DATA</text>
+
+  <g>
+    <rect x="40" y="72" width="345" height="180" rx="22" fill="#020817" fill-opacity=".55" transform="translate(0 8)"/>
+    <rect x="40" y="72" width="345" height="180" rx="22" fill="url(#panel)" stroke="url(#edge)" stroke-width="1.5"/>
+    <path d="M62 73 H352 Q384 73 384 105" fill="none" stroke="url(#shine)" stroke-width="2"/>
+    <path d="M40 210 H385" stroke="#38BDF8" stroke-opacity=".12"/>
+    <text x="66" y="112" fill="#67E8F9" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="2">BUILDER</text>
+    <text x="66" y="153" fill="#F8FAFC" font-family="Segoe UI,Arial,sans-serif" font-size="27" font-weight="700">Vikas Daddi</text>
+    <text x="66" y="185" fill="#BFDBFE" font-family="Segoe UI,Arial,sans-serif" font-size="17">AI · Full-Stack · Data Science</text>
+    <circle cx="344" cy="111" r="5" fill="#67E8F9"/>
+    <circle cx="344" cy="111" r="10" fill="none" stroke="#67E8F9" stroke-opacity=".25"/>
+  </g>
+  <g>
+    <rect x="405" y="72" width="755" height="180" rx="22" fill="#020817" fill-opacity=".55" transform="translate(0 8)"/>
+    <rect x="405" y="72" width="755" height="180" rx="22" fill="url(#panel)" stroke="url(#edge)" stroke-width="1.5"/>
+    <path d="M427 73 H1128 Q1159 73 1159 104" fill="none" stroke="url(#shine)" stroke-width="2"/>
+    <text x="438" y="111" fill="#67E8F9" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="2">WHAT I BUILD</text>
+    <text x="438" y="151" fill="#F8FAFC" font-family="Segoe UI,Arial,sans-serif" font-size="20">Practical products—from voice-enabled AI tools and data-driven apps</text>
+    <text x="438" y="180" fill="#F8FAFC" font-family="Segoe UI,Arial,sans-serif" font-size="20">to systems that keep working when the internet is unavailable.</text>
+    <rect x="438" y="207" width="10" height="10" rx="3" fill="url(#accent)"/>
+    <text x="460" y="217" fill="#BFDBFE" font-family="Segoe UI,Arial,sans-serif" font-size="16">Building: AI tools · Full-stack products · Data-driven applications</text>
+  </g>
+
+  <text x="42" y="302" fill="#7DD3FC" font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="3">01 / EXPERIENCE &amp; DIRECTION</text>
+  <g>
+    <rect x="40" y="324" width="355" height="174" rx="22" fill="#020817" fill-opacity=".55" transform="translate(0 8)"/>
+    <rect x="40" y="324" width="355" height="174" rx="22" fill="url(#panel)" stroke="url(#edge)" stroke-width="1.5"/>
+    <path d="M62 325 H363 Q394 325 394 356" fill="none" stroke="url(#shine)" stroke-width="2"/>
+    <text x="66" y="365" fill="#67E8F9" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="2">EDUCATION</text>
+    <text x="66" y="400" fill="#F8FAFC" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="700">B.E. Computer Science</text>
+    <text x="66" y="426" fill="#F8FAFC" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="700">&amp; Engineering · Data Science</text>
+    <text x="66" y="457" fill="#BFDBFE" font-family="Segoe UI,Arial,sans-serif" font-size="15">Karavali Institute of Technology · VTU</text>
+    <text x="66" y="480" fill="#94A3B8" font-family="Segoe UI,Arial,sans-serif" font-size="14">2023–2027</text>
+  </g>
+  <g>
+    <rect x="423" y="324" width="355" height="174" rx="22" fill="#020817" fill-opacity=".55" transform="translate(0 8)"/>
+    <rect x="423" y="324" width="355" height="174" rx="22" fill="url(#panel)" stroke="url(#edge)" stroke-width="1.5"/>
+    <path d="M445 325 H746 Q777 325 777 356" fill="none" stroke="url(#shine)" stroke-width="2"/>
+    <text x="449" y="365" fill="#67E8F9" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="2">PRACTICAL EXPERIENCE</text>
+    <text x="449" y="400" fill="#F8FAFC" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="700">MERN Stack Web</text>
+    <text x="449" y="426" fill="#F8FAFC" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="700">Development Intern</text>
+    <text x="449" y="457" fill="#BFDBFE" font-family="Segoe UI,Arial,sans-serif" font-size="15">CodeLab Systems · Mangaluru</text>
+    <text x="449" y="480" fill="#94A3B8" font-family="Segoe UI,Arial,sans-serif" font-size="14">Feb–May 2026</text>
+  </g>
+  <g>
+    <rect x="806" y="324" width="354" height="174" rx="22" fill="#020817" fill-opacity=".55" transform="translate(0 8)"/>
+    <rect x="806" y="324" width="354" height="174" rx="22" fill="url(#panel)" stroke="url(#edge)" stroke-width="1.5"/>
+    <path d="M828 325 H1128 Q1159 325 1159 356" fill="none" stroke="url(#shine)" stroke-width="2"/>
+    <text x="832" y="365" fill="#67E8F9" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="2">OPEN TO</text>
+    <circle cx="840" cy="399" r="4" fill="#67E8F9"/><text x="856" y="405" fill="#F8FAFC" font-family="Segoe UI,Arial,sans-serif" font-size="17">AI development</text>
+    <circle cx="840" cy="431" r="4" fill="#60A5FA"/><text x="856" y="437" fill="#F8FAFC" font-family="Segoe UI,Arial,sans-serif" font-size="17">Full-stack engineering</text>
+    <circle cx="840" cy="463" r="4" fill="#A5B4FC"/><text x="856" y="469" fill="#F8FAFC" font-family="Segoe UI,Arial,sans-serif" font-size="17">Data analysis</text>
+  </g>
+
+  <text x="42" y="550" fill="#7DD3FC" font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="3">02 / SELECTED PROJECTS</text>
+  <text x="1158" y="550" text-anchor="end" fill="#64748B" font-family="Segoe UI,Arial,sans-serif" font-size="13" letter-spacing="1">BUILT FOR REAL-WORLD USE</text>
+
+  <g transform="translate(40 574)">
+    <rect x="7" y="9" width="546" height="145" rx="20" fill="#020817" fill-opacity=".62"/>
+    <rect width="546" height="145" rx="20" fill="url(#panel)" stroke="url(#edge)" stroke-width="1.5"/><path d="M20 1 H522 Q545 1 545 24" stroke="url(#shine)" fill="none" stroke-width="2"/>
+    <text x="24" y="34" fill="#67E8F9" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="2">01 · OFFLINE SYSTEMS</text>
+    <text x="24" y="66" fill="#F8FAFC" font-family="Segoe UI,Arial,sans-serif" font-size="22" font-weight="700">RescueMesh</text>
+    <text x="24" y="94" fill="#CBD5E1" font-family="Segoe UI,Arial,sans-serif" font-size="16">Offline disaster communication with ESP32 and LoRa.</text>
+    <text x="24" y="119" fill="#94A3B8" font-family="Segoe UI,Arial,sans-serif" font-size="15">Built end to end · two nodes tested over 1 km</text>
+  </g>
+  <g transform="translate(614 574)">
+    <rect x="7" y="9" width="546" height="145" rx="20" fill="#020817" fill-opacity=".62"/><rect width="546" height="145" rx="20" fill="url(#panel)" stroke="url(#edge)" stroke-width="1.5"/><path d="M20 1 H522 Q545 1 545 24" stroke="url(#shine)" fill="none" stroke-width="2"/>
+    <text x="24" y="34" fill="#67E8F9" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="2">02 · AI INTERVIEW PRACTICE</text>
+    <text x="24" y="66" fill="#F8FAFC" font-family="Segoe UI,Arial,sans-serif" font-size="22" font-weight="700">VD-MockBot</text>
+    <text x="24" y="94" fill="#CBD5E1" font-family="Segoe UI,Arial,sans-serif" font-size="16">Voice-based interview practice with AI-generated questions,</text>
+    <text x="24" y="119" fill="#94A3B8" font-family="Segoe UI,Arial,sans-serif" font-size="15">feedback, scoring, and session tracking.</text>
+  </g>
+  <g transform="translate(40 744)">
+    <rect x="7" y="9" width="546" height="145" rx="20" fill="#020817" fill-opacity=".62"/><rect width="546" height="145" rx="20" fill="url(#panel)" stroke="url(#edge)" stroke-width="1.5"/><path d="M20 1 H522 Q545 1 545 24" stroke="url(#shine)" fill="none" stroke-width="2"/>
+    <text x="24" y="34" fill="#67E8F9" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="2">03 · EVENT MANAGEMENT</text>
+    <text x="24" y="66" fill="#F8FAFC" font-family="Segoe UI,Arial,sans-serif" font-size="22" font-weight="700">VD-EventHub</text>
+    <text x="24" y="94" fill="#CBD5E1" font-family="Segoe UI,Arial,sans-serif" font-size="16">MERN event platform with QR tickets, check-in,</text>
+    <text x="24" y="119" fill="#94A3B8" font-family="Segoe UI,Arial,sans-serif" font-size="15">role-based dashboards, and analytics.</text>
+  </g>
+  <g transform="translate(614 744)">
+    <rect x="7" y="9" width="546" height="145" rx="20" fill="#020817" fill-opacity=".62"/><rect width="546" height="145" rx="20" fill="url(#panel)" stroke="url(#edge)" stroke-width="1.5"/><path d="M20 1 H522 Q545 1 545 24" stroke="url(#shine)" fill="none" stroke-width="2"/>
+    <text x="24" y="34" fill="#67E8F9" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="2">04 · MULTILINGUAL AI</text>
+    <text x="24" y="66" fill="#F8FAFC" font-family="Segoe UI,Arial,sans-serif" font-size="22" font-weight="700">VD-Trio</text>
+    <text x="24" y="94" fill="#CBD5E1" font-family="Segoe UI,Arial,sans-serif" font-size="16">Text, speech, and document translation across 20+ languages,</text>
+    <text x="24" y="119" fill="#94A3B8" font-family="Segoe UI,Arial,sans-serif" font-size="15">with OCR and export tools.</text>
+  </g>
+  <g transform="translate(40 914)">
+    <rect x="7" y="9" width="546" height="145" rx="20" fill="#020817" fill-opacity=".62"/><rect width="546" height="145" rx="20" fill="url(#panel)" stroke="url(#edge)" stroke-width="1.5"/><path d="M20 1 H522 Q545 1 545 24" stroke="url(#shine)" fill="none" stroke-width="2"/>
+    <text x="24" y="34" fill="#67E8F9" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="2">05 · SUSTAINABILITY</text>
+    <text x="24" y="66" fill="#F8FAFC" font-family="Segoe UI,Arial,sans-serif" font-size="22" font-weight="700">VD-Collect</text>
+    <text x="24" y="94" fill="#CBD5E1" font-family="Segoe UI,Arial,sans-serif" font-size="16">E-waste recycling locator with map search, pickup booking,</text>
+    <text x="24" y="119" fill="#94A3B8" font-family="Segoe UI,Arial,sans-serif" font-size="15">collector workflows, and impact tracking.</text>
+  </g>
+  <g transform="translate(614 914)">
+    <rect x="7" y="9" width="546" height="145" rx="20" fill="#020817" fill-opacity=".62"/><rect width="546" height="145" rx="20" fill="url(#panel)" stroke="url(#edge)" stroke-width="1.5"/><path d="M20 1 H522 Q545 1 545 24" stroke="url(#shine)" fill="none" stroke-width="2"/>
+    <text x="24" y="34" fill="#67E8F9" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="2">06 · AI SECURITY</text>
+    <text x="24" y="66" fill="#F8FAFC" font-family="Segoe UI,Arial,sans-serif" font-size="22" font-weight="700">Aegis AI Firewall</text>
+    <text x="24" y="94" fill="#CBD5E1" font-family="Segoe UI,Arial,sans-serif" font-size="16">Browser-based checks for prompt injection,</text>
+    <text x="24" y="119" fill="#94A3B8" font-family="Segoe UI,Arial,sans-serif" font-size="15">PII leakage, and harmful content.</text>
+  </g>
+  <g transform="translate(40 1084)">
+    <rect x="7" y="9" width="546" height="145" rx="20" fill="#020817" fill-opacity=".62"/><rect width="546" height="145" rx="20" fill="url(#panel)" stroke="url(#edge)" stroke-width="1.5"/><path d="M20 1 H522 Q545 1 545 24" stroke="url(#shine)" fill="none" stroke-width="2"/>
+    <text x="24" y="34" fill="#67E8F9" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="2">07 · BROWSER UTILITIES</text>
+    <text x="24" y="66" fill="#F8FAFC" font-family="Segoe UI,Arial,sans-serif" font-size="22" font-weight="700">Zipify Tools</text>
+    <text x="24" y="94" fill="#CBD5E1" font-family="Segoe UI,Arial,sans-serif" font-size="16">React tools for image conversion, PDF workflows,</text>
+    <text x="24" y="119" fill="#94A3B8" font-family="Segoe UI,Arial,sans-serif" font-size="15">and ZIP creation in the browser.</text>
+  </g>
+  <g transform="translate(614 1084)">
+    <rect x="7" y="9" width="546" height="145" rx="20" fill="#020817" fill-opacity=".62"/><rect width="546" height="145" rx="20" fill="url(#panel)" stroke="url(#edge)" stroke-width="1.5"/><path d="M20 1 H522 Q545 1 545 24" stroke="url(#shine)" fill="none" stroke-width="2"/>
+    <text x="24" y="34" fill="#67E8F9" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="2">08 · SEMANTIC MATCHING</text>
+    <text x="24" y="66" fill="#F8FAFC" font-family="Segoe UI,Arial,sans-serif" font-size="22" font-weight="700">AI Candidate Ranker</text>
+    <text x="24" y="94" fill="#CBD5E1" font-family="Segoe UI,Arial,sans-serif" font-size="16">Prototype that matches candidate profiles</text>
+    <text x="24" y="119" fill="#94A3B8" font-family="Segoe UI,Arial,sans-serif" font-size="15">against job requirements.</text>
+  </g>
+</svg>
