@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Vikas Daddi</title>
+  <desc id="desc">AI, full-stack and data science developer building intelligent, useful applications.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#071426"/>
+      <stop offset="52%" stop-color="#0B2F5D"/>
+      <stop offset="100%" stop-color="#1459B8"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#38BDF8" stop-opacity=".85"/>
+      <stop offset="100%" stop-color="#93C5FD" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity=".35"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="300" rx="24" fill="url(#bg)"/>
+  <circle cx="1010" cy="55" r="230" fill="url(#glow)"/>
+  <circle cx="1110" cy="95" r="3" fill="#BAE6FD"><animate attributeName="opacity" values=".25;1;.25" dur="3.8s" repeatCount="indefinite"/></circle>
+  <circle cx="950" cy="215" r="4" fill="#38BDF8"><animate attributeName="opacity" values="1;.25;1" dur="4.5s" repeatCount="indefinite"/></circle>
+  <path d="M0 240 C210 170 315 295 540 220 S875 150 1200 225" fill="none" stroke="url(#line)" stroke-width="2"/>
+  <path d="M0 255 C210 185 315 310 540 235 S875 165 1200 240" fill="none" stroke="url(#line)" stroke-width="1" opacity=".55"/>
+  <path d="M0 270 C210 200 315 325 540 250 S875 180 1200 255" fill="none" stroke="url(#line)" stroke-width="1" opacity=".35"/>
+  <text x="72" y="126" fill="#F8FAFC" font-family="Segoe UI,Arial,sans-serif" font-size="58" font-weight="700" letter-spacing="1">VIKAS DADDI</text>
+  <text x="76" y="176" fill="#BAE6FD" font-family="Segoe UI,Arial,sans-serif" font-size="23" font-weight="500" letter-spacing="2">AI  ·  FULL-STACK  ·  DATA SCIENCE</text>
+  <text x="76" y="224" fill="#DBEAFE" font-family="Segoe UI,Arial,sans-serif" font-size="18" opacity=".9">Building intelligent, useful applications</text>
+  <rect x="74" y="248" width="170" height="3" rx="2" fill="#38BDF8"><animate attributeName="width" values="70;240;70" dur="6s" repeatCount="indefinite"/></rect>
+</svg>

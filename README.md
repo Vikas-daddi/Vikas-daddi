@@ -1,7 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:071A33,45:123E78,100:2563EB&height=220&section=header&text=Vikas%20Daddi&fontSize=56&fontColor=F8FAFC&fontAlignY=38&desc=AI%20%7C%20Full-Stack%20%7C%20Data%20Science&descAlignY=60&descSize=19&animation=fadeIn" width="100%" alt="Vikas Daddi — AI, Full-Stack and Data Science" />
-
-  <h1>Vikas Daddi</h1>
+  <img src="https://raw.githubusercontent.com/Vikas-daddi/Vikas-daddi/main/profile-assets/blue-hero.svg" width="100%" alt="Vikas Daddi — AI, Full-Stack and Data Science" />
 
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=18&pause=1300&color=60A5FA&center=true&vCenter=true&width=650&lines=Building+useful+AI+and+full-stack+products;Turning+ideas+into+working+systems;Open+to+AI%2C+full-stack%2C+and+data+roles" alt="Building useful AI and full-stack products" />
 
@@ -17,7 +15,19 @@
 
 ## 👋 About
 
-I’m an AI and full-stack developer with a Data Science background. I build practical products—from voice-enabled AI tools and data-driven applications to systems that keep working when the internet is unavailable.
+<table align="center">
+  <tr>
+    <td align="center" width="210">
+      <img src="https://github.com/Vikas-daddi.png" width="145" alt="Vikas Daddi profile photo" /><br />
+      <strong>Vikas Daddi</strong><br />
+      AI · Full-Stack · Data Science
+    </td>
+    <td>
+      I build practical products—from voice-enabled AI tools and data-driven applications to systems that keep working when the internet is unavailable.<br /><br />
+      <strong>Building:</strong> AI tools · Full-stack products · Data-driven applications
+    </td>
+  </tr>
+</table>
 
 <table align="center">
   <tr>
