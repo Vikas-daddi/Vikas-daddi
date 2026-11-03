@@ -18,7 +18,7 @@
 <table align="center">
   <tr>
     <td align="center" width="210">
-      <img src="https://github.com/Vikas-daddi.png" width="145" alt="Vikas Daddi profile photo" /><br />
+      
       <strong>Vikas Daddi</strong><br />
       AI · Full-Stack · Data Science
     </td>
