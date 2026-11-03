@@ -1,6 +1,8 @@
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:071A33,45:123E78,100:2563EB&height=220&section=header&text=Vikas%20Daddi&fontSize=56&fontColor=F8FAFC&fontAlignY=38&desc=AI%20%7C%20Full-Stack%20%7C%20Data%20Science&descAlignY=60&descSize=19&animation=fadeIn" width="100%" alt="Vikas Daddi — AI, Full-Stack and Data Science" />
 
+  <h1>Vikas Daddi</h1>
+
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=18&pause=1300&color=60A5FA&center=true&vCenter=true&width=650&lines=Building+useful+AI+and+full-stack+products;Turning+ideas+into+working+systems;Open+to+AI%2C+full-stack%2C+and+data+roles" alt="Building useful AI and full-stack products" />
 
   <p>
