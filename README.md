@@ -1,16 +1,16 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:101827,55:0e7490,100:2563eb&height=220&section=header&text=Vikas%20Daddi&fontSize=56&fontColor=F8FAFC&fontAlignY=38&desc=AI%20%7C%20Full-Stack%20%7C%20Data%20Science&descAlignY=60&descSize=19&animation=fadeIn" width="100%" alt="Vikas Daddi — AI, Full-Stack and Data Science" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:071A33,45:123E78,100:2563EB&height=220&section=header&text=Vikas%20Daddi&fontSize=56&fontColor=F8FAFC&fontAlignY=38&desc=AI%20%7C%20Full-Stack%20%7C%20Data%20Science&descAlignY=60&descSize=19&animation=fadeIn" width="100%" alt="Vikas Daddi — AI, Full-Stack and Data Science" />
 
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=18&pause=1300&color=0E7490&center=true&vCenter=true&width=650&lines=Building+useful+AI+and+full-stack+products;Turning+ideas+into+working+systems;Open+to+AI%2C+full-stack%2C+and+data+roles" alt="Building useful AI and full-stack products" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=18&pause=1300&color=60A5FA&center=true&vCenter=true&width=650&lines=Building+useful+AI+and+full-stack+products;Turning+ideas+into+working+systems;Open+to+AI%2C+full-stack%2C+and+data+roles" alt="Building useful AI and full-stack products" />
 
   <p>
-    <a href="https://portfolio-two-rho-ay000oc54o.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Explore%20my%20work-0E7490?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
+    <a href="https://portfolio-two-rho-ay000oc54o.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Explore%20my%20work-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
     <a href="https://www.linkedin.com/in/vikas-daddi-b99aa938a/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
     <a href="mailto:vikki74111@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
     <a href="https://portfolio-two-rho-ay000oc54o.vercel.app/Vikas_Daddi_Resume_Portfolio_Aligned.pdf"><img src="https://img.shields.io/badge/Resume-View-334155?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Resume" /></a>
   </p>
 
-  <img src="https://komarev.com/ghpvc/?username=Vikas-daddi&style=flat-square&color=0e7490" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=Vikas-daddi&style=flat-square&color=3B82F6" alt="Profile views" />
 </div>
 
 ## 👋 About
