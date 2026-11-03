@@ -101,6 +101,16 @@ Solo participant in the Geek Room hackathon; the final round was held at Paytm, 
   <strong>Systems:</strong> ESP32 · LoRa · GPS · Ionic Capacitor
 </p>
 
+## 🐍 Contribution Animation
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Vikas-daddi/Vikas-daddi/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Vikas-daddi/Vikas-daddi/output/github-contribution-grid-snake.svg" />
+    <img alt="Animated neon snake moving across my GitHub contribution graph" src="https://raw.githubusercontent.com/Vikas-daddi/Vikas-daddi/output/github-contribution-grid-snake.svg" width="100%" />
+  </picture>
+</div>
+
 <div align="center">
   <sub>Thanks for stopping by. Explore the demos and project stories on my <a href="https://portfolio-two-rho-ay000oc54o.vercel.app/">portfolio ↗</a>.</sub>
 </div>
