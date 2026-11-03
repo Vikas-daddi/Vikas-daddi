@@ -116,12 +116,8 @@ Solo participant in the Geek Room hackathon; the final round was held at Paytm, 
 ## 📊 GitHub Activity
 
 <div align="center">
-  <img height="175" src="https://github-readme-stats.vercel.app/api?username=Vikas-daddi&show_icons=true&hide_border=true&bg_color=0B1220&title_color=60A5FA&text_color=C9D1D9&icon_color=38BDF8&ring_color=3B82F6" alt="GitHub contribution statistics" />
-  <img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vikas-daddi&layout=compact&hide_border=true&bg_color=0B1220&title_color=60A5FA&text_color=C9D1D9&langs_count=6" alt="Most-used public repository languages" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Vikas-daddi&bg_color=0B1220&color=BFDBFE&line=3B82F6&point=38BDF8&area=true&hide_border=true" width="100%" alt="GitHub contributions over time" />
+  <img width="49%" src="https://raw.githubusercontent.com/Vikas-daddi/Vikas-daddi/output/profile-activity.svg" alt="Weekly GitHub contributions over the past year" />
+  <img width="49%" src="https://raw.githubusercontent.com/Vikas-daddi/Vikas-daddi/output/profile-languages.svg" alt="Primary languages across public repositories" />
 </div>
 
 ## 🐍 Contribution Animation

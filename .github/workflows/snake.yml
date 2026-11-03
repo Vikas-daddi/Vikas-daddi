@@ -10,6 +10,7 @@ on:
     paths:
       - README.md
       - .github/workflows/snake.yml
+      - .github/scripts/profile-graphs.mjs
 
 permissions:
   contents: write
@@ -26,6 +27,11 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg?color_snake=%230256D1&color_dots=%23EAF2FF,%23BFD7FF,%237BAEFF,%233F83F8,%231D4ED8
             dist/github-contribution-grid-snake-dark.svg?color_snake=%2360A5FA&color_dots=%230B1220,%23112445,%231D4ED8,%233B82F6,%2393C5FD
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate blue profile graphs
+        run: node .github/scripts/profile-graphs.mjs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
