@@ -18,7 +18,7 @@
 <table align="center">
   <tr>
     <td align="center" width="210">
-      
+      <!-- portrait stays in profile sidebar -->
       <strong>Vikas Daddi</strong><br />
       AI · Full-Stack · Data Science
     </td>
