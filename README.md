@@ -15,82 +15,15 @@
 
 ## 👋 About
 
-<table align="center">
-  <tr>
-    <td align="center" width="210">
-      <!-- portrait stays in profile sidebar -->
-      <strong>Vikas Daddi</strong><br />
-      AI · Full-Stack · Data Science
-    </td>
-    <td>
-      I build practical products—from voice-enabled AI tools and data-driven applications to systems that keep working when the internet is unavailable.<br /><br />
-      <strong>Building:</strong> AI tools · Full-stack products · Data-driven applications
-    </td>
-  </tr>
-</table>
-
-<table align="center">
-  <tr>
-    <td align="center"><strong>🎓 Education</strong><br />B.E. Computer Science &amp; Engineering<br />Data Science · Karavali Institute of Technology · VTU · 2023–2027</td>
-    <td align="center"><strong>💼 Experience</strong><br />MERN Stack Web Development Intern<br />CodeLab Systems · Feb–May 2026</td>
-    <td align="center"><strong>🎯 Open to</strong><br />AI development<br />Full-stack engineering · Data analysis</td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Vikas-daddi/Vikas-daddi/main/profile-assets/glass-panels.svg" width="100%" alt="Glossy blue glass panels showing my profile, education, experience, career focus, and selected projects." />
+</p>
 
 ## 🧩 Selected Projects
 
 Project source code is private. These links open live demos or project stories.
 
-<table>
-  <tr>
-    <td width="50%">
-      <h3>🆘 RescueMesh</h3>
-      <p>Offline disaster communication using ESP32 and LoRa. Built end to end and tested with two nodes over 1 km.</p>
-      <a href="https://portfolio-two-rho-ay000oc54o.vercel.app/case-studies/rescuemesh.html"><strong>Read the project story ↗</strong></a>
-    </td>
-    <td width="50%">
-      <h3>🎙️ VD-MockBot</h3>
-      <p>Voice-based AI interview practice with generated questions, feedback, scoring, and session tracking.</p>
-      <a href="https://vd-mockbot.vercel.app"><strong>Open live demo ↗</strong></a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3>🎟️ VD-EventHub</h3>
-      <p>MERN event platform with QR tickets, check-in, role-based dashboards, and analytics.</p>
-      <a href="https://vd-eventhub-9wnp.vercel.app"><strong>Open live demo ↗</strong></a>
-    </td>
-    <td width="50%">
-      <h3>🌍 VD-Trio</h3>
-      <p>Text, speech, and document translation across 20+ languages, with OCR and export tools.</p>
-      <a href="https://vd-trio-5ms7.onrender.com"><strong>Open live demo ↗</strong></a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3>♻️ VD-Collect</h3>
-      <p>E-waste recycling locator with map search, pickup booking, collector workflows, and impact tracking.</p>
-      <a href="https://vd-collect.vercel.app"><strong>Open live demo ↗</strong></a>
-    </td>
-    <td width="50%">
-      <h3>🛡️ Aegis AI Firewall</h3>
-      <p>Browser-based AI security demo for prompt injection, PII leakage, and harmful-content checks.</p>
-      <a href="https://vikas-daddi.github.io/aegis-ai-firewall/"><strong>Open live demo ↗</strong></a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3>🗜️ Zipify Tools</h3>
-      <p>Browser-based image, PDF, and ZIP utilities built with React.</p>
-      <a href="https://zipify-tools.vercel.app"><strong>Open live demo ↗</strong></a>
-    </td>
-    <td width="50%">
-      <h3>🧠 AI Candidate Ranker</h3>
-      <p>Semantic matching prototype that ranks candidate profiles against job requirements.</p>
-      <a href="mailto:vikki74111@gmail.com?subject=AI%20Candidate%20Ranker%20demo"><strong>Request a demo ↗</strong></a>
-    </td>
-  </tr>
-</table>
+[RescueMesh project story ↗](https://portfolio-two-rho-ay000oc54o.vercel.app/case-studies/rescuemesh.html) · [VD-MockBot live demo ↗](https://vd-mockbot.vercel.app) · [VD-EventHub live demo ↗](https://vd-eventhub-9wnp.vercel.app) · [VD-Trio live demo ↗](https://vd-trio-5ms7.onrender.com) · [VD-Collect live demo ↗](https://vd-collect.vercel.app) · [Aegis AI Firewall ↗](https://vikas-daddi.github.io/aegis-ai-firewall/) · [Zipify Tools ↗](https://zipify-tools.vercel.app) · [AI Candidate Ranker demo](mailto:vikki74111@gmail.com?subject=AI%20Candidate%20Ranker%20demo)
 
 ## 🧑‍💻 Experience & Achievement
 
