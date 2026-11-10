@@ -5,14 +5,14 @@ const token = process.env.GITHUB_TOKEN;
 if (!token) throw new Error("GITHUB_TOKEN is required to generate the profile charts.");
 
 const colors = {
-  bg: "#0B1220",
-  panel: "#101D31",
-  grid: "#1E3554",
-  text: "#DBEAFE",
-  muted: "#93AFCF",
-  blue: "#3B82F6",
-  cyan: "#38BDF8",
-  pale: "#BFDBFE",
+  bg: "#10070E",
+  panel: "#24101B",
+  grid: "#4A2034",
+  text: "#FFF0F5",
+  muted: "#BD9BAC",
+  blue: "#E0447A",
+  cyan: "#FF6B9D",
+  pale: "#FFD1E0",
 };
 
 async function githubJson(url, options = {}) {
