@@ -1,22 +1,22 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Vikas-daddi/Vikas-daddi/main/profile-assets/blue-hero.svg" width="100%" alt="Vikas Daddi — AI, Full-Stack and Data Science" />
+  <img src="https://raw.githubusercontent.com/Vikas-daddi/Vikas-daddi/main/profile-assets/burgundy-hero.svg" width="100%" alt="Vikas Daddi — AI, Full-Stack and Data Science" />
 
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=18&pause=1300&color=60A5FA&center=true&vCenter=true&width=650&lines=Building+useful+AI+and+full-stack+products;Turning+ideas+into+working+systems;Open+to+AI%2C+full-stack%2C+and+data+roles" alt="Building useful AI and full-stack products" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=18&pause=1300&color=F4A1BE&center=true&vCenter=true&width=650&lines=Building+useful+AI+and+full-stack+products;Turning+ideas+into+working+systems;Open+to+AI%2C+full-stack%2C+and+data+roles" alt="Building useful AI and full-stack products" />
 
   <p>
-    <a href="https://portfolio-two-rho-ay000oc54o.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Explore%20my%20work-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
+    <a href="https://portfolio-two-rho-ay000oc54o.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Explore%20my%20work-9F234B?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
     <a href="https://www.linkedin.com/in/vikas-daddi-b99aa938a/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
     <a href="mailto:vikki74111@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-    <a href="https://portfolio-two-rho-ay000oc54o.vercel.app/Vikas_Daddi_Resume_Portfolio_Aligned.pdf"><img src="https://img.shields.io/badge/Resume-View-334155?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Resume" /></a>
+    <a href="https://portfolio-two-rho-ay000oc54o.vercel.app/Vikas_Daddi_Resume_Portfolio_Aligned.pdf"><img src="https://img.shields.io/badge/Resume-View-631A38?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Resume" /></a>
   </p>
 
-  <img src="https://komarev.com/ghpvc/?username=Vikas-daddi&style=flat-square&color=3B82F6" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=Vikas-daddi&style=flat-square&color=D6336C" alt="Profile views" />
 </div>
 
 ## 👋 About
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Vikas-daddi/Vikas-daddi/main/profile-assets/glass-panels.svg" width="100%" alt="Glossy blue glass panels showing my profile, education, experience, career focus, and selected projects." />
+  <img src="https://raw.githubusercontent.com/Vikas-daddi/Vikas-daddi/main/profile-assets/burgundy-scenes.svg" width="100%" alt="Animated burgundy glass showcase cycling through my projects, skills, and activity." />
 </p>
 
 ## 🧩 Selected Projects
@@ -59,7 +59,7 @@ Solo participant in the Geek Room hackathon; the final round was held at Paytm, 
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Vikas-daddi/Vikas-daddi/output/github-contribution-grid-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Vikas-daddi/Vikas-daddi/output/github-contribution-grid-snake.svg" />
-    <img alt="Animated neon snake moving across my GitHub contribution graph" src="https://raw.githubusercontent.com/Vikas-daddi/Vikas-daddi/output/github-contribution-grid-snake.svg" width="100%" />
+    <img alt="Animated burgundy snake moving across my GitHub contribution graph" src="https://raw.githubusercontent.com/Vikas-daddi/Vikas-daddi/output/github-contribution-grid-snake.svg" width="100%" />
   </picture>
 </div>
 
