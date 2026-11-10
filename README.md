@@ -1,7 +1,7 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/Vikas-daddi/Vikas-daddi/main/profile-assets/burgundy-hero.svg" width="100%" alt="Vikas Daddi — AI, Full-Stack and Data Science" />
 
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=18&pause=1300&color=F4A1BE&center=true&vCenter=true&width=650&lines=Building+useful+AI+and+full-stack+products;Turning+ideas+into+working+systems;Open+to+AI%2C+full-stack%2C+and+data+roles" alt="Building useful AI and full-stack products" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:260D18,55:4A142C,100:9F234B&height=96&section=header&text=AI%20%E2%80%A2%20FULL-STACK%20%E2%80%A2%20DATA&fontSize=22&fontColor=F8DFE7&animation=fadeIn&desc=Building%20useful%20applications&descSize=13&descAlignY=75" width="100%" alt="AI, full-stack and data science: building useful applications" />
 
   <p>
     <a href="https://portfolio-two-rho-ay000oc54o.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Explore%20my%20work-9F234B?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
