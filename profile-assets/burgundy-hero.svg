@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="310" viewBox="0 0 1200 310" role="img" aria-labelledby="title desc">
+  <title id="title">Vikas Daddi — AI, full-stack and data science</title>
+  <desc id="desc">Animated burgundy glass banner introducing Vikas Daddi and his work in AI, full-stack development and data science.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#10070E"/><stop offset=".55" stop-color="#35101F"/><stop offset="1" stop-color="#741D3D"/></linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFF2F7" stop-opacity=".13"/><stop offset=".48" stop-color="#C22B60" stop-opacity=".12"/><stop offset="1" stop-color="#FF6B9D" stop-opacity=".08"/></linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#FFE1EC" stop-opacity=".06"/><stop offset=".48" stop-color="#FFD5E3" stop-opacity=".58"/><stop offset="1" stop-color="#F64E86" stop-opacity=".24"/></linearGradient>
+    <linearGradient id="sweep"><stop stop-color="#FF8CB0" stop-opacity="0"/><stop offset=".48" stop-color="#FFE4EE" stop-opacity=".88"/><stop offset="1" stop-color="#FF8CB0" stop-opacity="0"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#E83D78" stop-opacity=".32"/><stop offset="1" stop-color="#E83D78" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1200" height="310" rx="26" fill="url(#bg)"/>
+  <circle cx="1030" cy="35" r="260" fill="url(#glow)"/>
+  <circle cx="1100" cy="60" r="3" fill="#FFE1EC"><animate attributeName="opacity" values=".2;1;.2" dur="3.4s" repeatCount="indefinite"/></circle>
+  <circle cx="930" cy="238" r="4" fill="#FF6B9D"><animate attributeName="opacity" values="1;.22;1" dur="4.2s" repeatCount="indefinite"/></circle>
+  <path d="M0 263 C205 190 342 308 563 235 S920 161 1200 229" fill="none" stroke="#D93670" stroke-opacity=".42"/>
+  <path d="M0 277 C205 204 342 322 563 249 S920 175 1200 243" fill="none" stroke="#FF8CB0" stroke-opacity=".25"/>
+  <rect x="44" y="30" width="1112" height="244" rx="25" fill="#050308" fill-opacity=".34" transform="translate(0 8)"/>
+  <rect x="44" y="26" width="1112" height="244" rx="25" fill="url(#glass)" stroke="#FFDCE8" stroke-opacity=".32"/>
+  <path d="M70 27 H1124 Q1155 27 1155 59" fill="none" stroke="url(#edge)" stroke-width="2"/>
+  <path d="M68 246 H1124" fill="none" stroke="#FF6B9D" stroke-opacity=".22"/>
+  <text x="80" y="108" fill="#FFF6F9" font-family="Segoe UI,Arial,sans-serif" font-size="53" font-weight="700" letter-spacing="1">VIKAS DADDI</text>
+  <text x="84" y="151" fill="#FFC5D8" font-family="Segoe UI,Arial,sans-serif" font-size="20" font-weight="600" letter-spacing="1.7">AI  ·  FULL-STACK  ·  DATA SCIENCE</text>
+  <text x="84" y="190" fill="#F8DCE6" font-family="Segoe UI,Arial,sans-serif" font-size="17">Building intelligent, useful applications</text>
+  <rect x="82" y="218" width="170" height="3" rx="2" fill="#FF6B9D"><animate attributeName="width" values="90;300;90" dur="5.8s" repeatCount="indefinite"/></rect>
+  <g transform="translate(850 76)">
+    <rect x="5" y="6" width="250" height="132" rx="18" fill="#08050A" fill-opacity=".35"/>
+    <rect width="250" height="132" rx="18" fill="#300C1B" fill-opacity=".48" stroke="#FFDCE8" stroke-opacity=".25"/>
+    <path d="M17 1 H226 Q249 1 249 23" fill="none" stroke="#FFF2F7" stroke-opacity=".42"/>
+    <text x="20" y="29" fill="#FFC5D8" font-family="Segoe UI,Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="1.8">BUILDING AT THE INTERSECTION</text>
+    <circle cx="25" cy="53" r="3.5" fill="#FF6B9D"/><text x="40" y="58" fill="#FFF6F9" font-family="Segoe UI,Arial,sans-serif" font-size="14">AI applications</text>
+    <circle cx="25" cy="81" r="3.5" fill="#F5A0BC"/><text x="40" y="86" fill="#FFF6F9" font-family="Segoe UI,Arial,sans-serif" font-size="14">Full-stack systems</text>
+    <circle cx="25" cy="109" r="3.5" fill="#C99DFF"/><text x="40" y="114" fill="#FFF6F9" font-family="Segoe UI,Arial,sans-serif" font-size="14">Data &amp; insight</text>
+  </g>
+  <rect x="-280" y="26" width="190" height="244" fill="url(#sweep)" opacity=".28" transform="skewX(-18)">
+    <animate attributeName="x" values="-300;1320" dur="8s" repeatCount="indefinite"/>
+  </rect>
+</svg>
