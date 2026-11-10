@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="690" viewBox="0 0 1200 690" role="img" aria-labelledby="title desc">
   <title id="title">Vikas Daddi — animated project and skills showcase</title>
-  <desc id="desc">A looping burgundy glass showcase that transitions between Vikas's project highlights, technology stack, and GitHub activity.</desc>
+  <desc id="desc">A looping burgundy showcase with original animated project and skills scenes plus a decorative activity motif; live GitHub graphs follow below in the profile.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#10070E"/><stop offset=".52" stop-color="#24101B"/><stop offset="1" stop-color="#381323"/></linearGradient>
     <linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#50152E" stop-opacity=".95"/><stop offset=".53" stop-color="#210C17" stop-opacity=".98"/><stop offset="1" stop-color="#33101F" stop-opacity=".98"/></linearGradient>
@@ -99,16 +99,16 @@
       <animateTransform attributeName="transform" type="translate" values="0 14;0 0;0 0;0 -10;0 -10;0 14" keyTimes="0;.67;.92;.98;.99;1" dur="15s" repeatCount="indefinite"/>
       <text x="76" y="119" fill="#FF7BA7" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="2.3">03  /  BUILDING IN PUBLIC</text>
       <text x="76" y="177" fill="#FFF5F8" font-family="Segoe UI,Arial,sans-serif" font-size="34" font-weight="700">A year of building.</text>
-      <text x="77" y="211" fill="#F5C7D7" font-family="Segoe UI,Arial,sans-serif" font-size="17">Recent GitHub contributions and the projects behind them</text>
+      <text x="77" y="211" fill="#F5C7D7" font-family="Segoe UI,Arial,sans-serif" font-size="17">AI, web products and practical systems, built over time</text>
       <g transform="translate(76 250)">
         <rect x="7" y="9" width="1040" height="260" rx="20" fill="#050308" fill-opacity=".42"/>
         <rect width="1040" height="260" rx="20" fill="url(#card)" stroke="url(#edge)"/>
-        <text x="28" y="39" fill="#FFF5F8" font-family="Segoe UI,Arial,sans-serif" font-size="17" font-weight="700">Contribution activity</text>
-        <text x="1010" y="39" text-anchor="end" fill="#DDA9BC" font-family="Segoe UI,Arial,sans-serif" font-size="12">RECENT WEEKS</text>
+        <text x="28" y="39" fill="#FFF5F8" font-family="Segoe UI,Arial,sans-serif" font-size="17" font-weight="700">Build rhythm</text>
+        <text x="1010" y="39" text-anchor="end" fill="#DDA9BC" font-family="Segoe UI,Arial,sans-serif" font-size="12">LIVE GRAPH BELOW</text>
         <g transform="translate(30 58)">
           <g fill="#45182D">
             <rect x="0" y="0" width="15" height="15" rx="3"/><rect x="0" y="23" width="15" height="15" rx="3"/><rect x="0" y="46" width="15" height="15" rx="3"/><rect x="0" y="69" width="15" height="15" rx="3"/><rect x="0" y="92" width="15" height="15" rx="3"/>
-            <rect x="23" y="0" width="15" height="15" rx="3"/><rect x="23" y="23" width="15" height="15" rx="3"/><rect x="23" y="46" width="15" height="15" rx="3"/><rect x="23" y="69" width="15" height="15" rx="3"/><rect x="23" y="92" width="15" height="15" rx="3"/>
+            <rect x="23" y="0" width="15" height="15" rx="3"/><rect x="23" y="23" width="15" height="15" rx="3"/><rect x="23" y="46" width="15" height="15" rx="3"><animate attributeName="opacity" values=".48;1;.48" dur="2.8s" repeatCount="indefinite"/></rect><rect x="23" y="69" width="15" height="15" rx="3"/><rect x="23" y="92" width="15" height="15" rx="3"/>
             <rect x="46" y="0" width="15" height="15" rx="3"/><rect x="46" y="23" width="15" height="15" rx="3"/><rect x="46" y="46" width="15" height="15" rx="3"/><rect x="46" y="69" width="15" height="15" rx="3"/><rect x="46" y="92" width="15" height="15" rx="3"/>
             <rect x="69" y="0" width="15" height="15" rx="3"/><rect x="69" y="23" width="15" height="15" rx="3"/><rect x="69" y="46" width="15" height="15" rx="3"/><rect x="69" y="69" width="15" height="15" rx="3"/><rect x="69" y="92" width="15" height="15" rx="3"/>
             <rect x="92" y="0" width="15" height="15" rx="3"/><rect x="92" y="23" width="15" height="15" rx="3"/><rect x="92" y="46" width="15" height="15" rx="3"/><rect x="92" y="69" width="15" height="15" rx="3"/><rect x="92" y="92" width="15" height="15" rx="3"/>
