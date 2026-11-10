@@ -5,7 +5,7 @@
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#10070E"/><stop offset=".52" stop-color="#24101B"/><stop offset="1" stop-color="#381323"/></linearGradient>
     <linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#50152E" stop-opacity=".95"/><stop offset=".53" stop-color="#210C17" stop-opacity=".98"/><stop offset="1" stop-color="#33101F" stop-opacity=".98"/></linearGradient>
     <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#FFE0EB" stop-opacity=".12"/><stop offset=".5" stop-color="#FFD5E3" stop-opacity=".66"/><stop offset="1" stop-color="#FF5E95" stop-opacity=".38"/></linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#FF4F8A"/><stop offset="1" stop-color="#DCA2FF"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#FF4F8A"/><stop offset="1" stop-color="#F3A1BD"/></linearGradient>
     <radialGradient id="glow"><stop stop-color="#D52D68" stop-opacity=".25"/><stop offset="1" stop-color="#D52D68" stop-opacity="0"/></radialGradient>
     <pattern id="grain" width="4" height="4" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".45" fill="#FFEAF1" fill-opacity=".16"/></pattern>
   </defs>
@@ -18,6 +18,7 @@
   <rect x="34" y="66" width="1132" height="576" rx="25" fill="#170A11" stroke="url(#edge)" stroke-width="1.4"/>
   <path d="M58 67 H1135 Q1165 67 1165 97" fill="none" stroke="#FFF2F7" stroke-opacity=".42" stroke-width="2"/>
   <rect x="34" y="66" width="1132" height="576" rx="25" fill="url(#grain)" opacity=".16"/>
+
 
   <!-- Scene 1: project story, gentle camera drift -->
   <g opacity="0">
@@ -39,18 +40,23 @@
       <g transform="translate(796 244)">
         <rect x="8" y="10" width="318" height="268" rx="20" fill="#050308" fill-opacity=".45"/>
         <rect width="318" height="268" rx="20" fill="url(#card)" stroke="url(#edge)"/>
-        <text x="26" y="42" fill="#F3A1BD" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.7">MORE BUILT WORK</text>
-        <text x="26" y="91" fill="#FFF5F8" font-family="Segoe UI,Arial,sans-serif" font-size="19" font-weight="700">VD-MockBot</text>
-        <text x="26" y="116" fill="#DDBBC8" font-family="Segoe UI,Arial,sans-serif" font-size="14">Voice AI interview practice</text>
-        <path d="M26 135 H290" stroke="#FF6B9D" stroke-opacity=".28"/>
-        <text x="26" y="174" fill="#FFF5F8" font-family="Segoe UI,Arial,sans-serif" font-size="19" font-weight="700">VD-EventHub</text>
-        <text x="26" y="199" fill="#DDBBC8" font-family="Segoe UI,Arial,sans-serif" font-size="14">QR events + analytics</text>
+        <text x="26" y="42" fill="#F3A1BD" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.7">MORE PROJECTS</text>
+        <text x="26" y="78" fill="#FFF5F8" font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="700">MediPlus</text>
+        <text x="26" y="98" fill="#DDBBC8" font-family="Segoe UI,Arial,sans-serif" font-size="11">Telemedicine for care teams</text>
+        <path d="M26 110 H290" stroke="#FF6B9D" stroke-opacity=".28"/>
+        <text x="26" y="132" fill="#FFF5F8" font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="700">DATRYONS</text>
+        <text x="26" y="152" fill="#DDBBC8" font-family="Segoe UI,Arial,sans-serif" font-size="11">4K launch film · phone control</text>
+        <path d="M26 164 H290" stroke="#FF6B9D" stroke-opacity=".28"/>
+        <text x="26" y="186" fill="#FFF5F8" font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="700">VD-MockBot</text>
+        <text x="26" y="206" fill="#DDBBC8" font-family="Segoe UI,Arial,sans-serif" font-size="11">Voice AI interview practice</text>
         <path d="M26 218 H290" stroke="#FF6B9D" stroke-opacity=".28"/>
-        <text x="26" y="251" fill="#EBA0BE" font-family="Segoe UI,Arial,sans-serif" font-size="13">Swipe through the work ↗</text>
+        <text x="26" y="240" fill="#FFF5F8" font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="700">VD-EventHub</text>
+        <text x="26" y="259" fill="#DDBBC8" font-family="Segoe UI,Arial,sans-serif" font-size="11">QR events · check-in · analytics</text>
       </g>
       <rect x="76" y="570" width="1048" height="2" rx="1" fill="#5A2037"/><rect x="76" y="570" width="240" height="2" rx="1" fill="url(#accent)"><animate attributeName="width" values="20;1048;20" dur="15s" repeatCount="indefinite"/></rect>
     </g>
   </g>
+
 
   <!-- Scene 2: stack cards and achievements -->
   <g opacity="0">
@@ -68,10 +74,10 @@
         <g font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="600" text-anchor="middle">
           <rect x="28" y="66" width="128" height="43" rx="13" fill="#641B3A" stroke="#FF6B9D" stroke-opacity=".55"/><text x="92" y="93" fill="#FFF5F8">Python · AI</text>
           <rect x="174" y="66" width="144" height="43" rx="13" fill="#4B1833" stroke="#E778A7" stroke-opacity=".55"/><text x="246" y="93" fill="#FFF5F8">React · Node</text>
-          <rect x="336" y="66" width="136" height="43" rx="13" fill="#411627" stroke="#DCA2FF" stroke-opacity=".55"/><text x="404" y="93" fill="#FFF5F8">Data · SQL</text>
+          <rect x="336" y="66" width="136" height="43" rx="13" fill="#411627" stroke="#F3A1BD" stroke-opacity=".55"/><text x="404" y="93" fill="#FFF5F8">Data · SQL</text>
           <rect x="28" y="128" width="128" height="43" rx="13" fill="#4B1833" stroke="#E778A7" stroke-opacity=".55"/><text x="92" y="155" fill="#FFF5F8">Flask · APIs</text>
           <rect x="174" y="128" width="144" height="43" rx="13" fill="#641B3A" stroke="#FF6B9D" stroke-opacity=".55"/><text x="246" y="155" fill="#FFF5F8">MongoDB</text>
-          <rect x="336" y="128" width="136" height="43" rx="13" fill="#411627" stroke="#DCA2FF" stroke-opacity=".55"/><text x="404" y="155" fill="#FFF5F8">ESP32 · LoRa</text>
+          <rect x="336" y="128" width="136" height="43" rx="13" fill="#411627" stroke="#F3A1BD" stroke-opacity=".55"/><text x="404" y="155" fill="#FFF5F8">ESP32 · LoRa</text>
         </g>
         <path d="M28 194 H472" stroke="#FF6B9D" stroke-opacity=".3"/>
         <text x="28" y="222" fill="#FFF5F8" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700">CodeLab Systems · MERN internship</text>
@@ -91,6 +97,7 @@
       <rect x="76" y="570" width="1048" height="2" rx="1" fill="#5A2037"/><rect x="76" y="570" width="240" height="2" rx="1" fill="url(#accent)"><animate attributeName="width" values="20;1048;20" dur="15s" repeatCount="indefinite"/></rect>
     </g>
   </g>
+
 
   <!-- Scene 3: live contribution heatmap -->
   <g opacity="0">
