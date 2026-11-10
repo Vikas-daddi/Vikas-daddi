@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="690" viewBox="0 0 1200 690" role="img" aria-labelledby="title desc">
+  <title id="title">Vikas Daddi — animated project and skills showcase</title>
+  <desc id="desc">A looping burgundy glass showcase that transitions between Vikas's project highlights, technology stack, and GitHub activity.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#10070E"/><stop offset=".52" stop-color="#24101B"/><stop offset="1" stop-color="#381323"/></linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#50152E" stop-opacity=".95"/><stop offset=".53" stop-color="#210C17" stop-opacity=".98"/><stop offset="1" stop-color="#33101F" stop-opacity=".98"/></linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#FFE0EB" stop-opacity=".12"/><stop offset=".5" stop-color="#FFD5E3" stop-opacity=".66"/><stop offset="1" stop-color="#FF5E95" stop-opacity=".38"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#FF4F8A"/><stop offset="1" stop-color="#DCA2FF"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#D52D68" stop-opacity=".25"/><stop offset="1" stop-color="#D52D68" stop-opacity="0"/></radialGradient>
+    <pattern id="grain" width="4" height="4" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".45" fill="#FFEAF1" fill-opacity=".16"/></pattern>
+  </defs>
+  <rect width="1200" height="690" rx="26" fill="url(#bg)"/>
+  <circle cx="1120" cy="80" r="280" fill="url(#glow)"/>
+  <circle cx="70" cy="660" r="240" fill="url(#glow)"/>
+  <text x="42" y="47" fill="#F3A1BD" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="3">PROFILE / SHOWCASE</text>
+  <text x="1158" y="47" text-anchor="end" fill="#B78399" font-family="Segoe UI,Arial,sans-serif" font-size="13" letter-spacing="2">AI  ·  FULL-STACK  ·  DATA</text>
+  <rect x="34" y="70" width="1132" height="576" rx="25" fill="#050308" fill-opacity=".5" transform="translate(0 11)"/>
+  <rect x="34" y="66" width="1132" height="576" rx="25" fill="#170A11" stroke="url(#edge)" stroke-width="1.4"/>
+  <path d="M58 67 H1135 Q1165 67 1165 97" fill="none" stroke="#FFF2F7" stroke-opacity=".42" stroke-width="2"/>
+  <rect x="34" y="66" width="1132" height="576" rx="25" fill="url(#grain)" opacity=".16"/>
+
+  <!-- Scene 1: project story, gentle camera drift -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="1;1;0;0;0;1" keyTimes="0;.25;.33;.95;.99;1" dur="15s" repeatCount="indefinite"/>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="18 12;0 0;0 0;-12 -3;-12 -3;18 12" keyTimes="0;.07;.24;.31;.98;1" dur="15s" repeatCount="indefinite"/>
+      <text x="76" y="119" fill="#FF7BA7" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="2.3">01  /  PROJECT SPOTLIGHT</text>
+      <text x="76" y="177" fill="#FFF5F8" font-family="Segoe UI,Arial,sans-serif" font-size="38" font-weight="700">RescueMesh</text>
+      <text x="77" y="216" fill="#F5C7D7" font-family="Segoe UI,Arial,sans-serif" font-size="18">Offline disaster communication when networks fail</text>
+      <rect x="76" y="252" width="666" height="268" rx="20" fill="#08050A" fill-opacity=".48" transform="translate(0 8)"/>
+      <rect x="76" y="244" width="666" height="268" rx="20" fill="url(#card)" stroke="url(#edge)"/>
+      <path d="M96 245 H714 Q741 245 741 272" fill="none" stroke="#FFF2F7" stroke-opacity=".46"/>
+      <text x="108" y="294" fill="#F3A1BD" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="2">FIELD TEST</text>
+      <text x="108" y="342" fill="#FFF5F8" font-family="Segoe UI,Arial,sans-serif" font-size="24" font-weight="700">2 nodes  ·  1 km  ·  zero internet</text>
+      <text x="108" y="383" fill="#E9C6D2" font-family="Segoe UI,Arial,sans-serif" font-size="16">ESP32 + LoRa mesh for local alerts and messaging</text>
+      <text x="108" y="412" fill="#E9C6D2" font-family="Segoe UI,Arial,sans-serif" font-size="16">GPS-based SOS, offline maps and device-hosted portal</text>
+      <rect x="108" y="447" width="210" height="37" rx="18" fill="#6D1839" stroke="#FF80A9" stroke-opacity=".58"/>
+      <text x="213" y="471" text-anchor="middle" fill="#FFF3F7" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="700">FINAL-YEAR PROJECT</text>
+      <g transform="translate(796 244)">
+        <rect x="8" y="10" width="318" height="268" rx="20" fill="#050308" fill-opacity=".45"/>
+        <rect width="318" height="268" rx="20" fill="url(#card)" stroke="url(#edge)"/>
+        <text x="26" y="42" fill="#F3A1BD" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.7">MORE BUILT WORK</text>
+        <text x="26" y="91" fill="#FFF5F8" font-family="Segoe UI,Arial,sans-serif" font-size="19" font-weight="700">VD-MockBot</text>
+        <text x="26" y="116" fill="#DDBBC8" font-family="Segoe UI,Arial,sans-serif" font-size="14">Voice AI interview practice</text>
+        <path d="M26 135 H290" stroke="#FF6B9D" stroke-opacity=".28"/>
+        <text x="26" y="174" fill="#FFF5F8" font-family="Segoe UI,Arial,sans-serif" font-size="19" font-weight="700">VD-EventHub</text>
+        <text x="26" y="199" fill="#DDBBC8" font-family="Segoe UI,Arial,sans-serif" font-size="14">QR events + analytics</text>
+        <path d="M26 218 H290" stroke="#FF6B9D" stroke-opacity=".28"/>
+        <text x="26" y="251" fill="#EBA0BE" font-family="Segoe UI,Arial,sans-serif" font-size="13">Swipe through the work ↗</text>
+      </g>
+      <rect x="76" y="570" width="1048" height="2" rx="1" fill="#5A2037"/><rect x="76" y="570" width="240" height="2" rx="1" fill="url(#accent)"><animate attributeName="width" values="20;1048;20" dur="15s" repeatCount="indefinite"/></rect>
+    </g>
+  </g>
+
+  <!-- Scene 2: stack cards and achievements -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0;0" keyTimes="0;.28;.36;.61;.69;.96;1" dur="15s" repeatCount="indefinite"/>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="26 0;0 0;0 0;-18 0;-18 0;26 0" keyTimes="0;.34;.59;.67;.98;1" dur="15s" repeatCount="indefinite"/>
+      <text x="76" y="119" fill="#FF7BA7" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="2.3">02  /  TOOLKIT &amp; DELIVERY</text>
+      <text x="76" y="177" fill="#FFF5F8" font-family="Segoe UI,Arial,sans-serif" font-size="34" font-weight="700">Ideas become working systems.</text>
+      <text x="77" y="211" fill="#F5C7D7" font-family="Segoe UI,Arial,sans-serif" font-size="17">AI applications · full-stack products · data-driven tools</text>
+      <g transform="translate(76 250)">
+        <rect x="7" y="9" width="500" height="260" rx="20" fill="#050308" fill-opacity=".42"/>
+        <rect width="500" height="260" rx="20" fill="url(#card)" stroke="url(#edge)"/>
+        <path d="M20 1 H470 Q499 1 499 29" fill="none" stroke="#FFF2F7" stroke-opacity=".42"/>
+        <text x="28" y="44" fill="#F3A1BD" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="2">CORE STACK</text>
+        <g font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="600" text-anchor="middle">
+          <rect x="28" y="66" width="128" height="43" rx="13" fill="#641B3A" stroke="#FF6B9D" stroke-opacity=".55"/><text x="92" y="93" fill="#FFF5F8">Python · AI</text>
+          <rect x="174" y="66" width="144" height="43" rx="13" fill="#4B1833" stroke="#E778A7" stroke-opacity=".55"/><text x="246" y="93" fill="#FFF5F8">React · Node</text>
+          <rect x="336" y="66" width="136" height="43" rx="13" fill="#411627" stroke="#DCA2FF" stroke-opacity=".55"/><text x="404" y="93" fill="#FFF5F8">Data · SQL</text>
+          <rect x="28" y="128" width="128" height="43" rx="13" fill="#4B1833" stroke="#E778A7" stroke-opacity=".55"/><text x="92" y="155" fill="#FFF5F8">Flask · APIs</text>
+          <rect x="174" y="128" width="144" height="43" rx="13" fill="#641B3A" stroke="#FF6B9D" stroke-opacity=".55"/><text x="246" y="155" fill="#FFF5F8">MongoDB</text>
+          <rect x="336" y="128" width="136" height="43" rx="13" fill="#411627" stroke="#DCA2FF" stroke-opacity=".55"/><text x="404" y="155" fill="#FFF5F8">ESP32 · LoRa</text>
+        </g>
+        <path d="M28 194 H472" stroke="#FF6B9D" stroke-opacity=".3"/>
+        <text x="28" y="222" fill="#FFF5F8" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700">CodeLab Systems · MERN internship</text>
+        <text x="28" y="245" fill="#DDBBC8" font-family="Segoe UI,Arial,sans-serif" font-size="13">Built event booking, QR check-in and admin analytics</text>
+      </g>
+      <g transform="translate(614 250)">
+        <rect x="7" y="9" width="510" height="260" rx="20" fill="#050308" fill-opacity=".42"/>
+        <rect width="510" height="260" rx="20" fill="url(#card)" stroke="url(#edge)"/>
+        <text x="28" y="44" fill="#F3A1BD" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="2">HIGHLIGHTS</text>
+        <text x="28" y="91" fill="#FFF5F8" font-family="Segoe UI,Arial,sans-serif" font-size="26" font-weight="700">Top 25 / ~400</text>
+        <text x="28" y="119" fill="#DDBBC8" font-family="Segoe UI,Arial,sans-serif" font-size="15">Code Cubicle 6.0 · solo participant</text>
+        <path d="M28 143 H482" stroke="#FF6B9D" stroke-opacity=".3"/>
+        <text x="28" y="180" fill="#FFF5F8" font-family="Segoe UI,Arial,sans-serif" font-size="17" font-weight="700">Also shipping</text>
+        <text x="28" y="211" fill="#DDBBC8" font-family="Segoe UI,Arial,sans-serif" font-size="14">VD-Trio · translation tools</text>
+        <text x="28" y="237" fill="#DDBBC8" font-family="Segoe UI,Arial,sans-serif" font-size="14">VD-Collect · e-waste pickup platform</text>
+      </g>
+      <rect x="76" y="570" width="1048" height="2" rx="1" fill="#5A2037"/><rect x="76" y="570" width="240" height="2" rx="1" fill="url(#accent)"><animate attributeName="width" values="20;1048;20" dur="15s" repeatCount="indefinite"/></rect>
+    </g>
+  </g>
+
+  <!-- Scene 3: live contribution heatmap -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.62;.69;.94;.99;1" dur="15s" repeatCount="indefinite"/>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 14;0 0;0 0;0 -10;0 -10;0 14" keyTimes="0;.67;.92;.98;.99;1" dur="15s" repeatCount="indefinite"/>
+      <text x="76" y="119" fill="#FF7BA7" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="2.3">03  /  BUILDING IN PUBLIC</text>
+      <text x="76" y="177" fill="#FFF5F8" font-family="Segoe UI,Arial,sans-serif" font-size="34" font-weight="700">A year of building.</text>
+      <text x="77" y="211" fill="#F5C7D7" font-family="Segoe UI,Arial,sans-serif" font-size="17">Recent GitHub contributions and the projects behind them</text>
+      <g transform="translate(76 250)">
+        <rect x="7" y="9" width="1040" height="260" rx="20" fill="#050308" fill-opacity=".42"/>
+        <rect width="1040" height="260" rx="20" fill="url(#card)" stroke="url(#edge)"/>
+        <text x="28" y="39" fill="#FFF5F8" font-family="Segoe UI,Arial,sans-serif" font-size="17" font-weight="700">Contribution activity</text>
+        <text x="1010" y="39" text-anchor="end" fill="#DDA9BC" font-family="Segoe UI,Arial,sans-serif" font-size="12">RECENT WEEKS</text>
+        <g transform="translate(30 58)">
+          <g fill="#45182D">
+            <rect x="0" y="0" width="15" height="15" rx="3"/><rect x="0" y="23" width="15" height="15" rx="3"/><rect x="0" y="46" width="15" height="15" rx="3"/><rect x="0" y="69" width="15" height="15" rx="3"/><rect x="0" y="92" width="15" height="15" rx="3"/>
+            <rect x="23" y="0" width="15" height="15" rx="3"/><rect x="23" y="23" width="15" height="15" rx="3"/><rect x="23" y="46" width="15" height="15" rx="3"/><rect x="23" y="69" width="15" height="15" rx="3"/><rect x="23" y="92" width="15" height="15" rx="3"/>
+            <rect x="46" y="0" width="15" height="15" rx="3"/><rect x="46" y="23" width="15" height="15" rx="3"/><rect x="46" y="46" width="15" height="15" rx="3"/><rect x="46" y="69" width="15" height="15" rx="3"/><rect x="46" y="92" width="15" height="15" rx="3"/>
+            <rect x="69" y="0" width="15" height="15" rx="3"/><rect x="69" y="23" width="15" height="15" rx="3"/><rect x="69" y="46" width="15" height="15" rx="3"/><rect x="69" y="69" width="15" height="15" rx="3"/><rect x="69" y="92" width="15" height="15" rx="3"/>
+            <rect x="92" y="0" width="15" height="15" rx="3"/><rect x="92" y="23" width="15" height="15" rx="3"/><rect x="92" y="46" width="15" height="15" rx="3"/><rect x="92" y="69" width="15" height="15" rx="3"/><rect x="92" y="92" width="15" height="15" rx="3"/>
+          </g>
+          <g fill="#A62C59">
+            <rect x="23" y="69" width="15" height="15" rx="3"/><rect x="46" y="23" width="15" height="15" rx="3"/><rect x="69" y="46" width="15" height="15" rx="3"/><rect x="92" y="0" width="15" height="15" rx="3"/>
+          </g>
+          <g fill="#FF6B9D">
+            <rect x="23" y="46" width="15" height="15" rx="3"/><rect x="46" y="69" width="15" height="15" rx="3"/><rect x="69" y="23" width="15" height="15" rx="3"/><rect x="92" y="69" width="15" height="15" rx="3"/>
+          </g>
+          <g fill="#FFD1E0">
+            <rect x="46" y="46" width="15" height="15" rx="3"/><rect x="92" y="46" width="15" height="15" rx="3"/>
+          </g>
+        </g>
+        <text x="180" y="98" fill="#F3A1BD" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.6">KEEPING THE MOMENTUM</text>
+        <text x="180" y="137" fill="#FFF5F8" font-family="Segoe UI,Arial,sans-serif" font-size="22" font-weight="700">AI, web products &amp; practical systems</text>
+        <text x="180" y="169" fill="#DDBBC8" font-family="Segoe UI,Arial,sans-serif" font-size="15">Explore the projects, read the build stories,</text>
+        <text x="180" y="194" fill="#DDBBC8" font-family="Segoe UI,Arial,sans-serif" font-size="15">and follow along with the live contribution graph.</text>
+        <path d="M180 222 H535" stroke="#FF6B9D" stroke-opacity=".46" stroke-dasharray="5 8"><animate attributeName="stroke-dashoffset" values="0;-52" dur="4s" repeatCount="indefinite"/></path>
+      </g>
+      <rect x="76" y="570" width="1048" height="2" rx="1" fill="#5A2037"/><rect x="76" y="570" width="240" height="2" rx="1" fill="url(#accent)"><animate attributeName="width" values="20;1048;20" dur="15s" repeatCount="indefinite"/></rect>
+    </g>
+  </g>
+  <text x="600" y="615" text-anchor="middle" fill="#B78399" font-family="Segoe UI,Arial,sans-serif" font-size="11" letter-spacing="2">SCROLL THE PROFILE FOR LIVE PROJECT LINKS &amp; DETAILS</text>
+</svg>
