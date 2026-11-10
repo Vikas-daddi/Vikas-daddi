@@ -16,7 +16,7 @@
 ## 👋 About
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Vikas-daddi/Vikas-daddi/main/profile-assets/burgundy-scenes.svg" width="100%" alt="Animated burgundy glass showcase cycling through my projects, skills, and activity." />
+  <img src="https://raw.githubusercontent.com/Vikas-daddi/Vikas-daddi/main/profile-assets/burgundy-scenes.svg?v=2" width="100%" alt="Animated burgundy glass showcase cycling through my projects, skills, and activity." />
 </p>
 
 ## 🧩 Selected Projects
